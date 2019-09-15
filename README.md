@@ -32,3 +32,11 @@ If you want to develop this or modify it on your own, feel free to. Simply type
 $ git clone https://github.com/maxblee/cli_testing_utils
 $ cd cli_testing_utils
 ```
+
+Since I am not uploading the library to [crates.io](https://crates.io), you will
+need to build the documentation yourself to find an API. Once you have `cd`'d
+into this crate's directory, simply type:
+```shell
+$ cargo doc --open
+```
+to open an HTML API in your browser.
